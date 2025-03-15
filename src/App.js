@@ -54,7 +54,7 @@ export default function App() {
         <div className="itemInner">
           <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgb(151, 131, 105)" strokeWidth="8"/>
           <Reveal>
-            <h1>Meet our founders</h1>
+            <h1>About us</h1>
           </Reveal>
         </div>
       </div>
@@ -104,9 +104,34 @@ export default function App() {
 
       <div className="itemThing">
         <div className="itemInner">
+          <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgb(151, 131, 105)" strokeWidth="8"/>
+          <Reveal>
+            <h1>Support Us</h1>
+          </Reveal>
+        </div>
+
+        <div className="itemInner">
+          <Reveal width={window.innerWidth}>
+            <h3>
+              lorem ipsum goon goon goon lorem ipsum goon goon goon lorem ipsum goon goon goon lorem ipsum goon goon goon vlorem ipsum goon goon goon
+              lorem ipsum goon goon goon lorem ipsum goon goon goon lorem ipsum goon goon goon lorem ipsum goon goon goon vlorem ipsum goon goon goon
+            </h3>
+          </Reveal>
           <Reveal width={window.innerWidth}>
             <img className="itemThingImg" src="https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain" />
           </Reveal>
+        </div>
+      </div>
+      
+      <div className="itemThing">
+        <div className="itemInner">
+          <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgb(151, 131, 105)" strokeWidth="8"/>
+          <Reveal>
+            <h1>Contact</h1>
+          </Reveal>
+        </div>
+
+        <div className="itemInner">
           <Reveal width={window.innerWidth}>
             <h3>
               lorem ipsum goon goon goon lorem ipsum goon goon goon lorem ipsum goon goon goon lorem ipsum goon goon goon vlorem ipsum goon goon goon
@@ -115,8 +140,6 @@ export default function App() {
           </Reveal>
         </div>
       </div>
-      
-      
       
     </>
   );
