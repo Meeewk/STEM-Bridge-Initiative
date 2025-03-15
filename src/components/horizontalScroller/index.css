@@ -1,0 +1,108 @@
+/* General styling for the scroller container */
+.scroller-container {
+  position: relative;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: -10vh;
+}
+
+/* Left and Right arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: white;
+  padding: 16px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.left-arrow {
+  left: 10vw;
+}
+
+.right-arrow {
+  right: 10vw;
+}
+
+/* Scrollable container for items */
+.scrollable-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* CSS Grid for items wrapper - single row */
+.scrollable-items {
+  display: grid;
+  grid-template-columns: 18vw repeat(auto-fit, minmax(20vw, 1fr)); /* Add 5vw column before the items */
+  gap: 16px;
+  transition: transform 0.4s ease-out;
+  grid-auto-flow: column; /* Force items to align in a single row */
+}
+
+/* Empty element for left padding */
+.empty-element {
+  width: 5vw;
+}
+
+/* Individual item cards */
+.item-card {
+  width: 20vw; /* Item width */
+  height: 60vh; /* Item height */
+  background-color: #f44336;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 16px;
+}
+
+/* Name styling */
+.item-name {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+/* Image styling */
+.item-image {
+  height: 40vh; /* Middle 4/7 of the height */
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crop image to fit */
+}
+
+/* Description styling */
+.item-description {
+  margin-top: 16px;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+}
+
+/* Disabled state for arrows */
+.arrow:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
