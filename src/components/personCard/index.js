@@ -5,7 +5,7 @@ export default function PersonCard({ name = "Goon", description = "gooner gooner
   return (
     <div className="card">
       <h1>{name}</h1>
-      <img src="https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain" />
+      <img src={image} />
       <p>{description}</p>
     </div>
   );

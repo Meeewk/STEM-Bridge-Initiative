@@ -14,11 +14,12 @@ export default function App() {
         <img id="topImg" src="https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain" />
       </div>
       <div id="after">
-
       </div>
+
+      
       <div className="itemThing">
         <div className="itemInner">
-          <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgb(151, 131, 105)" strokeWidth="8"/>
+          <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgba(25,104,119,255)" strokeWidth="8"/>
           <Reveal>
             <h1>Our Mission</h1>
           </Reveal>
@@ -52,7 +53,7 @@ export default function App() {
 
       <div className="itemThing">
         <div className="itemInner">
-          <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgb(151, 131, 105)" strokeWidth="8"/>
+          <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgba(25,104,119,255)" strokeWidth="8"/>
           <Reveal>
             <h1>About us</h1>
           </Reveal>
@@ -104,7 +105,7 @@ export default function App() {
 
       <div className="itemThing">
         <div className="itemInner">
-          <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgb(151, 131, 105)" strokeWidth="8"/>
+          <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgba(25,104,119,255)" strokeWidth="8"/>
           <Reveal>
             <h1>Support Us</h1>
           </Reveal>
@@ -125,7 +126,7 @@ export default function App() {
       
       <div className="itemThing">
         <div className="itemInner">
-          <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgb(151, 131, 105)" strokeWidth="8"/>
+          <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgba(25,104,119,255)" strokeWidth="8"/>
           <Reveal>
             <h1>Contact</h1>
           </Reveal>
