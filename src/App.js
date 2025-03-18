@@ -16,7 +16,7 @@ export default function App() {
       <div id="after">
       </div>
 
-      
+
       <div className="itemThing">
         <div className="itemInner">
           <DrawingWave id="wave" widthPercent={14} heightPercent={10} frequency={window.innerWidth / 100} duration={0.5} color="rgba(25,104,119,255)" strokeWidth="8"/>
