@@ -1,7 +1,7 @@
 /*DESKTOP STYLES*/
 @media screen and (min-width: 992px) {
   .customBar {
-    background-color: rgba(105,203,222,255);
+    background-color: rgba(180,220,240,255);
     height: 16vh;
     position: fixed;
     top: 0;
