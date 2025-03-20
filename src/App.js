@@ -4,11 +4,16 @@ import Reveal from "./components/reveal";
 import DrawingWave from "./components/wave";
 import PersonCard from "./components/personCard";
 import HorizontalScroller from "./components/horizontalScroller";
+import { useRef } from "react";
 
 export default function App() {
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const supportRef = useRef(null);
+  const contactRef = useRef(null);
   return (
     <>
-      <CustomNavbar />
+      <CustomNavbar homeRef={homeRef} aboutRef={aboutRef} supportRef={supportRef} contactRef={contactRef}/>
       <div id="topImgDiv">
         <img
           id="topImg"
@@ -17,7 +22,7 @@ export default function App() {
       </div>
       <div id="after"></div>
 
-      <div className="itemThing">
+      <div className="itemThing" ref={homeRef}>
         <div className="itemInner">
           <DrawingWave
             id="wave"
@@ -75,7 +80,7 @@ export default function App() {
         </div>
       </div>
 
-      <div className="itemThing">
+      <div className="itemThing" ref={aboutRef}>
         <div className="itemInner">
           <DrawingWave
             id="wave"
@@ -153,7 +158,7 @@ export default function App() {
         ]}
       />
 
-      <div className="itemThing">
+      <div className="itemThing" ref={supportRef}>
         <div className="itemInner">
           <DrawingWave
             id="wave"
@@ -188,7 +193,7 @@ export default function App() {
         </div>
       </div>
 
-      <div className="itemThing">
+      <div className="itemThing" ref={contactRef}>
         <div className="itemInner">
           <DrawingWave
             id="wave"
