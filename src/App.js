@@ -100,25 +100,25 @@ export default function App() {
       <HorizontalScroller
         items={[
           {
-            name: "Item 1",
+            name: "Yana Sukhudyan",
             image:
               "https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain", // Placeholder image URL
             description:
-              "This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1.",
+              "Hi! I’m Yana, a junior at North Creek High School and VP of Stem Bridge Initiative. I’m passionate about helping underserved communities and making an impact through fundraising. I enjoy traveling, reading, and spending time with family and friends. Excited to contribute!",
           },
           {
-            name: "Item 1",
+            name: "Edgar Ter-Galstyan",
             image:
               "https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain", // Placeholder image URL
             description:
-              "This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1.",
+              "I'm Edgar Ter-Galstyan, a freshman at Henry M. Jackson High School. I'm passionate about helping others achieve their goals and making an impact. I’m also into motorsports, sports, and traveling to experience new cultures. Excited to be part of this mission!",
           },
           {
-            name: "Item 1",
+            name: "Matthew Kokhan",
             image:
               "https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain", // Placeholder image URL
             description:
-              "This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1.",
+              "Hello! I’m Matthew Kokhan, a junior at North Creek High School. I’m interested in helping the next generation and making sure that they have proper technological opportunities to succeed. I enjoy learning, coding games, and playing volleyball! I’m glad to be a part of this initiative!",
           },
           {
             name: "Item 1",
