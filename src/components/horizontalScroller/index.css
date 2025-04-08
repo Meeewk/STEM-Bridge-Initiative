@@ -73,7 +73,7 @@
   position: absolute;
   top: 16px;
   left: 16px;
-  font-size: 1.5rem;
+  font-size: 4vh;
   font-weight: bold;
   color: black;
   margin: 0;
@@ -84,7 +84,7 @@
   height: 40vh; /* Middle 4/7 of the height */
   width: 100%;
   overflow: hidden;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .item-image img {
@@ -95,8 +95,8 @@
 
 /* Description styling */
 .item-description {
-  margin-top: 16px;
-  font-size: 1rem;
+  margin-top: 4vh;
+  font-size: 0.8vw;
   text-align: center;
   color: black;
 }

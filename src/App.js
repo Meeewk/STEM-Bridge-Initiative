@@ -2,7 +2,6 @@ import "./App.css";
 import CustomNavbar from "./components/navbar";
 import Reveal from "./components/reveal";
 import DrawingWave from "./components/wave";
-import PersonCard from "./components/personCard";
 import HorizontalScroller from "./components/horizontalScroller";
 import { useRef } from "react";
 
@@ -102,7 +101,7 @@ export default function App() {
           {
             name: "Yana Sukhudyan",
             image:
-              "https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain", // Placeholder image URL
+              "/images/unnamed (1).jpg", // Placeholder image URL
             description:
               "Hi! I’m Yana, a junior at North Creek High School and VP of Stem Bridge Initiative. I’m passionate about helping underserved communities and making an impact through fundraising. I enjoy traveling, reading, and spending time with family and friends. Excited to contribute!",
           },
@@ -116,44 +115,37 @@ export default function App() {
           {
             name: "Matthew Kokhan",
             image:
-              "https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain", // Placeholder image URL
+              "/images/DSC07483.JPG", // Placeholder image URL
             description:
-              "Hello! I’m Matthew Kokhan, a junior at North Creek High School. I’m interested in helping the next generation and making sure that they have proper technological opportunities to succeed. I enjoy learning, coding games, and playing volleyball! I’m glad to be a part of this initiative!",
+              "Hello! I’m Matthew Kokhan, a junior at North Creek High School. I’m interested in helping the next generation have the proper technological opportunities to succeed. I enjoy learning, coding games, and playing volleyball! I’m glad to be a part of this initiative!",
           },
           {
-            name: "Item 1",
+            name: "Karlen Aleksanyan",
+            image:
+              "/images/unnamed.jpg", // Placeholder image URL
+            description:
+              "My name is Karlen Aleksanyan, I'm a high school junior from Washington. I love engineering and robotics, so of course I want to allow everyone to experience it. One fun fact about me is that I love shawarma. Armenian shawarma, that is.",
+          },
+          {
+            name: "Mari Ivanyan",
             image:
               "https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain", // Placeholder image URL
             description:
-              "This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1.",
+              "My name is Mari Ivanyan, I'm a sophomore at lake washington high school, I love math, history and all things stem! One fun fact about me is that I've hated honey ever since I've been a toddler but I hope to get over that someday.",
           },
           {
-            name: "Item 1",
+            name: "Abhay Sankar",
             image:
               "https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain", // Placeholder image URL
             description:
-              "This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1.",
+              "My name is Abhay Sankar, I'm a high schooler at North Creek High School. I love public speaking and teaching, as a matter of fact, I have my own tutoring company! I also love law and business. One fun fact about me is that I love watching the TV show suits.",
           },
           {
-            name: "Item 1",
+            name: "Susanna Aleksanyan",
             image:
               "https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain", // Placeholder image URL
             description:
-              "This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1.",
-          },
-          {
-            name: "Item 1",
-            image:
-              "https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain", // Placeholder image URL
-            description:
-              "This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1.",
-          },
-          {
-            name: "Item 1",
-            image:
-              "https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain", // Placeholder image URL
-            description:
-              "This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1. This is the description for Item 1.",
+              "My name is Susanna Aleksanyan, I'm a sophomore in Washington state. I love art, law, and oh did I mention art. I love drawing and painting, and have been doing so since I was little. One fun fact about me is that one of my pastimes is putting in my airpods and just walking around my room.",
           },
         ]}
       />

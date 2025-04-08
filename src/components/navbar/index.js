@@ -6,7 +6,7 @@ export default function CustomNavbar( {homeRef, aboutRef, supportRef, contactRef
 
   const scrollToSection = (where) => {
     if (where.current) {
-      const topOffset = 20 * window.innerHeight / 100; // 20vh offset
+      const topOffset = 20 * window.innerHeight / 100;
       const elementPosition = where.current.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({ top: elementPosition - topOffset, behavior: "smooth" });
     }
@@ -26,7 +26,7 @@ export default function CustomNavbar( {homeRef, aboutRef, supportRef, contactRef
         <Navbar.Collapse className="subContainer" id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link className="subBar" href="" onClick={() => scrollToSection(homeRef)}>
-              <span></span> Home
+              <span></span> Our Mission
             </Nav.Link>
             <Nav.Link className="subBar" href="" onClick={() => scrollToSection(aboutRef)}>
               <span></span> About
