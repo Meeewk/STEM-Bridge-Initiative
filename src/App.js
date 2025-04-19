@@ -3,6 +3,7 @@ import CustomNavbar from "./components/navbar";
 import Reveal from "./components/reveal";
 import DrawingWave from "./components/wave";
 import HorizontalScroller from "./components/horizontalScroller";
+import KarlenPhoto from "../public/images/KarlenPhoto.jpg";
 import { useRef } from "react";
 
 export default function App() {
@@ -101,7 +102,7 @@ export default function App() {
           {
             name: "Karlen Aleksanyan",
             image:
-              "${process.env.PUBLIC_URL}/images/KarlenPhoto.jpg", // Placeholder image URL
+              KarlenPhoto, // Placeholder image URL
             description:
               "My name is Karlen Aleksanyan, I'm a high school junior from Washington. I love engineering and robotics, so of course I want to allow everyone to experience it. One fun fact about me is that I love shawarma. Armenian shawarma, that is.",
           },
