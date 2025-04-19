@@ -101,7 +101,7 @@ export default function App() {
           {
             name: "Karlen Aleksanyan",
             image:
-              "/KarlenPhoto.jpg", // Placeholder image URL
+              "./STEM-Bridge-Initiative/KarlenPhoto.jpg", // Placeholder image URL
             description:
               "My name is Karlen Aleksanyan, I'm a high school junior from Washington. I love engineering and robotics, so of course I want to allow everyone to experience it. One fun fact about me is that I love shawarma. Armenian shawarma, that is.",
           },
