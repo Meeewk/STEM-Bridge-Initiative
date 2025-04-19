@@ -1,3 +1,10 @@
+/*GLOBAL STYLES*/
+nav {
+  font-family: 'Antic Slab', serif;
+}
+
+
+
 /*DESKTOP STYLES*/
 @media screen and (min-width: 992px) {
   .customBar {
@@ -13,7 +20,7 @@
   }
 
   .topBar {
-    font-size: xx-large;
+    font-size: 3rem;
     margin-left: 15%;
     margin-top: 2%;
   }
@@ -24,7 +31,7 @@
   }
 
   .subBar {
-    font-size: x-large;
+    font-size: xx-large;
     margin-left: 2%;
     width: 50%;
     white-space: nowrap;
