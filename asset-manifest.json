@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/STEM-Bridge-Initiative/static/css/main.42f4c6dd.css",
+    "main.js": "/STEM-Bridge-Initiative/static/js/main.576a297d.js",
+    "static/js/488.af104311.chunk.js": "/STEM-Bridge-Initiative/static/js/488.af104311.chunk.js",
+    "index.html": "/STEM-Bridge-Initiative/index.html",
+    "main.42f4c6dd.css.map": "/STEM-Bridge-Initiative/static/css/main.42f4c6dd.css.map",
+    "main.576a297d.js.map": "/STEM-Bridge-Initiative/static/js/main.576a297d.js.map",
+    "488.af104311.chunk.js.map": "/STEM-Bridge-Initiative/static/js/488.af104311.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42f4c6dd.css",
+    "static/js/main.576a297d.js"
+  ]
+}
