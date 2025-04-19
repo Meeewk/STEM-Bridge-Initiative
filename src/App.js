@@ -4,7 +4,13 @@ import Reveal from "./components/reveal";
 import DrawingWave from "./components/wave";
 import HorizontalScroller from "./components/horizontalScroller";
 import { useRef } from "react";
+import AbhayPhoto from "./images/AbhayPhoto.jpeg";
+import EdgarPhoto from "./images/EdgarPhoto.jpeg";
 import KarlenPhoto from "./images/KarlenPhoto.jpg";
+import MariPhoto from "./images/MariPhoto.jpeg";
+import MatthewPhoto from "./images/MatthewPhoto.JPG";
+import SusannaPhoto from "./images/SusannaPhoto.jpg";
+import YanaPhoto from "./images/YanaPhoto.jpeg";
 
 export default function App() {
   const homeRef = useRef(null);
@@ -101,50 +107,43 @@ export default function App() {
         items={[
           {
             name: "Karlen Aleksanyan",
-            image:
-              KarlenPhoto, // Placeholder image URL
+            image: KarlenPhoto,
             description:
               "My name is Karlen Aleksanyan, I'm a high school junior from Washington. I love engineering and robotics, so of course I want to allow everyone to experience it. One fun fact about me is that I love shawarma. Armenian shawarma, that is.",
           },
           {
             name: "Yana Sukhudyan",
-            image:
-              "./STEM-Bridge-Initiative/YanaPhoto.jpeg", // Placeholder image URL
+            image: YanaPhoto,
             description:
               "Hi! I’m Yana, a junior at North Creek High School and VP of Stem Bridge Initiative. I’m passionate about helping underserved communities and making an impact through fundraising. I enjoy traveling, reading, and spending time with family and friends. Excited to contribute!",
           },
           {
             name: "Mari Ivanyan",
-            image:
-              "./STEM-Bridge-Initiative/MariPhoto.jpeg", // Placeholder image URL
+            image: MariPhoto,
             description:
               "My name is Mari Ivanyan, I'm a sophomore at lake washington high school, I love math, history and all things stem! One fun fact about me is that I've hated honey ever since I've been a toddler but I hope to get over that someday.",
           },
           {
             name: "Matthew Kokhan",
-            image:
-              "./STEM-Bridge-Initiative/MatthewPhoto.jpg", // Placeholder image URL
+            image: MatthewPhoto,
             description:
               "Hello! I’m Matthew Kokhan, a junior at North Creek High School. I’m interested in helping the next generation have the proper technological opportunities to succeed. I enjoy learning, coding games, and playing volleyball! I’m glad to be a part of this initiative!",
           },
           {
             name: "Abhay Sankar",
-            image:
-              "./STEM-Bridge-Initiative/AbhayPhoto.jpeg", // Placeholder image URL
+            image: AbhayPhoto,
             description:
               "My name is Abhay Sankar, I'm a high schooler at North Creek High School. I love public speaking and teaching, as a matter of fact, I have my own tutoring company! I also love law and business. One fun fact about me is that I love watching the TV show suits.",
           },
           {
             name: "Edgar Ter-Galstyan",
-            image:
-              "./STEM-Bridge-Initiative/EdgarPhoto.jpeg", // Placeholder image URL
+            image: EdgarPhoto,
             description:
               "I'm Edgar Ter-Galstyan, a freshman at Henry M. Jackson High School. I'm passionate about helping others achieve their goals and making an impact. I’m also into motorsports, sports, and traveling to experience new cultures. Excited to be part of this mission!",
           },
           {
             name: "Susanna Aleksanyan",
-            image:
-              "./STEM-Bridge-Initiative/SusannaPhoto.jpg", // Placeholder image URL
+            image: SusannaPhoto,
             description:
               "My name is Susanna Aleksanyan, I'm a sophomore in Washington state. I love art, law, and oh did I mention art. I love drawing and painting, and have been doing so since I was little. One fun fact about me is that one of my pastimes is putting in my airpods and just walking around my room.",
           },
