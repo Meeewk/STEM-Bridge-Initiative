@@ -3,8 +3,8 @@ import CustomNavbar from "./components/navbar";
 import Reveal from "./components/reveal";
 import DrawingWave from "./components/wave";
 import HorizontalScroller from "./components/horizontalScroller";
-import KarlenPhoto from "../public/images/KarlenPhoto.jpg";
 import { useRef } from "react";
+import KarlenPhoto from "./images/KarlenPhoto.jpg";
 
 export default function App() {
   const homeRef = useRef(null);
