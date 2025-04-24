@@ -11,6 +11,7 @@ import MariPhoto from "./images/MariPhoto.jpeg";
 import MatthewPhoto from "./images/MatthewPhoto.JPG";
 import SusannaPhoto from "./images/SusannaPhoto.jpg";
 import YanaPhoto from "./images/YanaPhoto.jpeg";
+import Donation from "./components/donation";
 
 export default function App() {
   const homeRef = useRef(null);
@@ -169,22 +170,15 @@ export default function App() {
         <div className="itemInner">
           <Reveal width={window.innerWidth}>
             <h3>
-              lorem ipsum goon goon goon lorem ipsum goon goon goon lorem ipsum
-              goon goon goon lorem ipsum goon goon goon vlorem ipsum goon goon
-              goon lorem ipsum goon goon goon lorem ipsum goon goon goon lorem
-              ipsum goon goon goon lorem ipsum goon goon goon vlorem ipsum goon
-              goon goon
+              STEM Bridge Initiative is currently raising funds in order to build computer labs in small communities in developing countries, where students often don’t have access to technology. The support we receive from you directly provides STEM resources and the crucial infrastructure needed to make these labs possible. These tools educate students on STEM fields and prepare them for future opportunities. Every donation, big or small, helps create an impact where it's needed most. Currently, we’re focused on collecting donations through our GoFundMe to make sure these labs are built as soon as possible.
             </h3>
           </Reveal>
           <Reveal width={window.innerWidth}>
-            <img
-              className="itemThingImg"
-              src="https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain"
-            />
+            <Donation />
           </Reveal>
         </div>
       </div>
-
+      <Donation />
       <div className="itemThing" ref={contactRef}>
         <div className="itemInner">
           <DrawingWave
