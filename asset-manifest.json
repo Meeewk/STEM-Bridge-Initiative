@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/STEM-Bridge-Initiative/static/css/main.42f4c6dd.css",
-    "main.js": "/STEM-Bridge-Initiative/static/js/main.1bbe473f.js",
+    "main.js": "/STEM-Bridge-Initiative/static/js/main.38666d2a.js",
     "static/js/488.af104311.chunk.js": "/STEM-Bridge-Initiative/static/js/488.af104311.chunk.js",
     "static/media/MatthewPhoto.JPG": "/STEM-Bridge-Initiative/static/media/MatthewPhoto.59c52a3b88cdc4926f30.JPG",
     "static/media/AbhayPhoto.jpeg": "/STEM-Bridge-Initiative/static/media/AbhayPhoto.5e6213bc06e53af2e933.jpeg",
@@ -12,11 +12,11 @@
     "static/media/EdgarPhoto.jpeg": "/STEM-Bridge-Initiative/static/media/EdgarPhoto.980ee1da50603a85bc0f.jpeg",
     "index.html": "/STEM-Bridge-Initiative/index.html",
     "main.42f4c6dd.css.map": "/STEM-Bridge-Initiative/static/css/main.42f4c6dd.css.map",
-    "main.1bbe473f.js.map": "/STEM-Bridge-Initiative/static/js/main.1bbe473f.js.map",
+    "main.38666d2a.js.map": "/STEM-Bridge-Initiative/static/js/main.38666d2a.js.map",
     "488.af104311.chunk.js.map": "/STEM-Bridge-Initiative/static/js/488.af104311.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42f4c6dd.css",
-    "static/js/main.1bbe473f.js"
+    "static/js/main.38666d2a.js"
   ]
 }
