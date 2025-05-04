@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/STEM-Bridge-Initiative/static/css/main.42f4c6dd.css",
-    "main.js": "/STEM-Bridge-Initiative/static/js/main.38666d2a.js",
+    "main.js": "/STEM-Bridge-Initiative/static/js/main.675d183b.js",
     "static/js/488.af104311.chunk.js": "/STEM-Bridge-Initiative/static/js/488.af104311.chunk.js",
     "static/media/MatthewPhoto.JPG": "/STEM-Bridge-Initiative/static/media/MatthewPhoto.59c52a3b88cdc4926f30.JPG",
     "static/media/AbhayPhoto.jpeg": "/STEM-Bridge-Initiative/static/media/AbhayPhoto.5e6213bc06e53af2e933.jpeg",
@@ -10,13 +10,16 @@
     "static/media/KarlenPhoto.jpg": "/STEM-Bridge-Initiative/static/media/KarlenPhoto.a8ef8b1b0de71297dca1.jpg",
     "static/media/MariPhoto.jpeg": "/STEM-Bridge-Initiative/static/media/MariPhoto.124d7c0abc497dcb6bf1.jpeg",
     "static/media/EdgarPhoto.jpeg": "/STEM-Bridge-Initiative/static/media/EdgarPhoto.980ee1da50603a85bc0f.jpeg",
+    "static/media/ArmenianKidsHandsUp.jpg": "/STEM-Bridge-Initiative/static/media/ArmenianKidsHandsUp.603df5e00494f7383c35.jpg",
+    "static/media/ArmenianChess.jpg": "/STEM-Bridge-Initiative/static/media/ArmenianChess.6ec430c06de1b7bfd6bc.jpg",
+    "static/media/ArmenianKidsTable.jpg": "/STEM-Bridge-Initiative/static/media/ArmenianKidsTable.3340cbba520fb1d94db4.jpg",
     "index.html": "/STEM-Bridge-Initiative/index.html",
     "main.42f4c6dd.css.map": "/STEM-Bridge-Initiative/static/css/main.42f4c6dd.css.map",
-    "main.38666d2a.js.map": "/STEM-Bridge-Initiative/static/js/main.38666d2a.js.map",
+    "main.675d183b.js.map": "/STEM-Bridge-Initiative/static/js/main.675d183b.js.map",
     "488.af104311.chunk.js.map": "/STEM-Bridge-Initiative/static/js/488.af104311.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42f4c6dd.css",
-    "static/js/main.38666d2a.js"
+    "static/js/main.675d183b.js"
   ]
 }
