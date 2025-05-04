@@ -1,9 +1,17 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from 'react';
 
-const Donation = () => {
-  return (
-     <div className="gfm-embed" data-url="https://www.gofundme.com/f/support-nicholass-road-to-recovery/widget/large"></div>
-  )
+const AdoptGoFundMeWidget = () => {
+  const wrapperRef = useRef(null);
+
+  useEffect(() => {
+    const externalWidget = document.querySelector('.gfm-embed');
+
+    if (externalWidget && wrapperRef.current) {
+      wrapperRef.current.appendChild(externalWidget);
+    }
+  }, []);
+
+  return <div ref={wrapperRef} />;
 };
 
-export default Donation
+export default AdoptGoFundMeWidget;

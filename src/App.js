@@ -11,7 +11,11 @@ import MariPhoto from "./images/MariPhoto.jpeg";
 import MatthewPhoto from "./images/MatthewPhoto.JPG";
 import SusannaPhoto from "./images/SusannaPhoto.jpg";
 import YanaPhoto from "./images/YanaPhoto.jpeg";
-import Donation from "./components/donation";
+import GoFundMeWidget from "./components/donation";
+import AdoptGoFundMeWidget from "./components/donation";
+import ArmenianKidsHandsUpPhoto from "./images/ArmenianKidsHandsUp.jpg";
+import ArmenianKidsChessPhoto from "./images/ArmenianChess.jpg";
+import ArmenianKidsTablePhoto from "./images/ArmenianKidsTable.jpg";
 
 export default function App() {
   const homeRef = useRef(null);
@@ -24,7 +28,7 @@ export default function App() {
       <div id="topImgDiv">
         <img
           id="topImg"
-          src="https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain"
+          src={ArmenianKidsHandsUpPhoto}
         />
       </div>
       <div id="after"></div>
@@ -60,7 +64,7 @@ export default function App() {
           <Reveal width={window.innerWidth}>
             <img
               className="itemThingImg"
-              src="https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain"
+              src={ArmenianKidsChessPhoto}
             />
           </Reveal>
         </div>
@@ -71,7 +75,7 @@ export default function App() {
           <Reveal width={window.innerWidth}>
             <img
               className="itemThingImg"
-              src="https://th.bing.com/th/id/OIP.vgOzpQfCZarhNgHrai-l6wHaEW?rs=1&pid=ImgDetMain"
+              src={ArmenianKidsTablePhoto}
             />
           </Reveal>
           <Reveal width={window.innerWidth}>
@@ -174,11 +178,11 @@ export default function App() {
             </h3>
           </Reveal>
           <Reveal width={window.innerWidth}>
-            <Donation />
+            <AdoptGoFundMeWidget />
           </Reveal>
         </div>
       </div>
-      <Donation />
+      
       <div className="itemThing" ref={contactRef}>
         <div className="itemInner">
           <DrawingWave
@@ -210,6 +214,8 @@ export default function App() {
           </Reveal>
         </div>
       </div>
+      
+      
     </>
   );
 }
