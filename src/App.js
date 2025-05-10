@@ -24,10 +24,16 @@ export default function App() {
   const contactRef = useRef(null);
   return (
     <>
-      <CustomNavbar homeRef={homeRef} aboutRef={aboutRef} supportRef={supportRef} contactRef={contactRef}/>
+      <CustomNavbar
+        homeRef={homeRef}
+        aboutRef={aboutRef}
+        supportRef={supportRef}
+        contactRef={contactRef}
+      />
       <div id="topImgDiv">
         <img
           id="topImg"
+          className="rounded-img"
           src={ArmenianKidsHandsUpPhoto}
         />
       </div>
@@ -62,10 +68,7 @@ export default function App() {
             </h3>
           </Reveal>
           <Reveal width={window.innerWidth}>
-            <img
-              className="itemThingImg"
-              src={ArmenianKidsChessPhoto}
-            />
+            <img className="itemThingImg" src={ArmenianKidsChessPhoto} />
           </Reveal>
         </div>
       </div>
@@ -73,10 +76,7 @@ export default function App() {
       <div className="itemThing">
         <div className="itemInner">
           <Reveal width={window.innerWidth}>
-            <img
-              className="itemThingImg"
-              src={ArmenianKidsTablePhoto}
-            />
+            <img className="itemThingImg" src={ArmenianKidsTablePhoto} />
           </Reveal>
           <Reveal width={window.innerWidth}>
             <h3>
@@ -113,6 +113,7 @@ export default function App() {
           {
             name: "Karlen Aleksanyan",
             image: KarlenPhoto,
+            
             description:
               "My name is Karlen Aleksanyan, I'm a high school junior from Washington. I love engineering and robotics, so of course I want to allow everyone to experience it. One fun fact about me is that I love shawarma. Armenian shawarma, that is.",
           },
@@ -174,7 +175,16 @@ export default function App() {
         <div className="itemInner">
           <Reveal width={window.innerWidth}>
             <h3>
-              STEM Bridge Initiative is currently raising funds in order to build computer labs in small communities in developing countries, where students often don’t have access to technology. The support we receive from you directly provides STEM resources and the crucial infrastructure needed to make these labs possible. These tools educate students on STEM fields and prepare them for future opportunities. Every donation, big or small, helps create an impact where it's needed most. Currently, we’re focused on collecting donations through our GoFundMe to make sure these labs are built as soon as possible.
+              STEM Bridge Initiative is currently raising funds in order to
+              build computer labs in small communities in developing countries,
+              where students often don’t have access to technology. The support
+              we receive from you directly provides STEM resources and the
+              crucial infrastructure needed to make these labs possible. These
+              tools educate students on STEM fields and prepare them for future
+              opportunities. Every donation, big or small, helps create an
+              impact where it's needed most. Currently, we’re focused on
+              collecting donations through our GoFundMe to make sure these labs
+              are built as soon as possible.
             </h3>
           </Reveal>
           <Reveal width={window.innerWidth}>
@@ -182,7 +192,7 @@ export default function App() {
           </Reveal>
         </div>
       </div>
-      
+
       <div className="itemThing" ref={contactRef}>
         <div className="itemInner">
           <DrawingWave
@@ -214,8 +224,6 @@ export default function App() {
           </Reveal>
         </div>
       </div>
-      
-      
     </>
   );
 }

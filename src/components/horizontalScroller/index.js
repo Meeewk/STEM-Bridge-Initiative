@@ -54,7 +54,8 @@ export default function HorizontalScroller({ items }) {
 
               {/* Image */}
               <div className="item-image">
-                <img src={item.image} alt={item.name} />
+                <img src={item.image} alt={item.name} className="rounded-img" />
+
               </div>
 
               {/* Description */}

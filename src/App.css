@@ -9,7 +9,7 @@ h1 {
 @media screen and (min-width: 992px) {
   #topImgDiv {
     position: relative;
-    margin-top: 7%;
+    margin-top: 6%;
     margin-bottom: 5%;
   }
   
@@ -25,8 +25,8 @@ h1 {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 20%;
-    background: linear-gradient(to bottom, transparent, rgba(220,243,254,255));
+    height: 5%;
+    background: linear-gradient(to bottom, transparent, rgba(253,236,254,255));
   }
   
   #wave {
@@ -78,6 +78,12 @@ h1 {
   .itemThingImg {
     width: 80%;
     margin-left: 10%;
+    border-radius: 10%;
+  }
+
+  .rounded-img {
+    border-radius: 10%;
+    object-fit: cover;
   }
   
 }

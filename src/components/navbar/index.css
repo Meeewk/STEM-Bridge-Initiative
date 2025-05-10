@@ -8,8 +8,8 @@ nav {
 /*DESKTOP STYLES*/
 @media screen and (min-width: 992px) {
   .customBar {
-    background-color: rgba(180,220,240,255);
-    height: 16vh;
+    background-color: rgba(128,128,247,255);
+    height: 12vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -22,7 +22,7 @@ nav {
   .topBar {
     font-size: 3rem;
     margin-left: 15%;
-    margin-top: 2%;
+    margin-top: 1%;
   }
 
   .container-fluid {
@@ -52,7 +52,7 @@ nav {
 
   .subContainer {
     margin-right: 18%;;
-    margin-top: 3.2%;
+    margin-top: 2%;
   }
 }
 
@@ -60,7 +60,7 @@ nav {
 @media screen and (max-width: 991px) {
   .customBar {
     background-color: rgba(105,203,222,255);
-    height: 8vh;
+    height: 6vh;
     position: fixed;
     top: 0;
     left: 0;
