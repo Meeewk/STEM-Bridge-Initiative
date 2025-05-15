@@ -11,7 +11,7 @@ import MariPhoto from "./images/MariPhoto.jpeg";
 import MatthewPhoto from "./images/MatthewPhoto.JPG";
 import SusannaPhoto from "./images/SusannaPhoto.jpg";
 import YanaPhoto from "./images/YanaPhoto.jpeg";
-import GoFundMeWidget from "./components/donation";
+import ShriyaPhoto from "./images/ShriyaPhoto.jpg";
 import AdoptGoFundMeWidget from "./components/donation";
 import ArmenianKidsHandsUpPhoto from "./images/ArmenianKidsHandsUp.jpg";
 import ArmenianKidsChessPhoto from "./images/ArmenianChess.jpg";
@@ -153,6 +153,12 @@ export default function App() {
             description:
               "My name is Susanna Aleksanyan, I'm a sophomore in Washington state. I love art, law, and oh did I mention art. I love drawing and painting, and have been doing so since I was little. One fun fact about me is that one of my pastimes is putting in my airpods and just walking around my room.",
           },
+          {
+            name: "Shriya Aroun",
+            image: ShriyaPhoto,
+            description:
+              "Hello! My name is Shriya and I’m a junior at Northcreek High School. I love reading, playing piano and am super interested in a career in law!"
+          }
         ]}
       />
 
