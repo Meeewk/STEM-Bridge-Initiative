@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.b21fd07a.css",
-    "main.js": "./static/js/main.7cdaa792.js",
+    "main.js": "./static/js/main.290de21d.js",
     "static/js/488.af104311.chunk.js": "./static/js/488.af104311.chunk.js",
     "static/media/MatthewPhoto.JPG": "./static/media/MatthewPhoto.59c52a3b88cdc4926f30.JPG",
     "static/media/AbhayPhoto.jpeg": "./static/media/AbhayPhoto.5e6213bc06e53af2e933.jpeg",
     "static/media/SusannaPhoto.jpg": "./static/media/SusannaPhoto.19900a13557326036dbe.jpg",
     "static/media/YanaPhoto.jpeg": "./static/media/YanaPhoto.6d67785a5419028413b0.jpeg",
     "static/media/KarlenPhoto.jpg": "./static/media/KarlenPhoto.a8ef8b1b0de71297dca1.jpg",
+    "static/media/ShriyaPhoto.jpg": "./static/media/ShriyaPhoto.ccdff0350754289d1a5d.jpg",
     "static/media/MariPhoto.jpeg": "./static/media/MariPhoto.124d7c0abc497dcb6bf1.jpeg",
     "static/media/EdgarPhoto.jpeg": "./static/media/EdgarPhoto.980ee1da50603a85bc0f.jpeg",
     "static/media/ArmenianKidsHandsUp.jpg": "./static/media/ArmenianKidsHandsUp.603df5e00494f7383c35.jpg",
@@ -15,11 +16,11 @@
     "static/media/ArmenianKidsTable.jpg": "./static/media/ArmenianKidsTable.3340cbba520fb1d94db4.jpg",
     "index.html": "./index.html",
     "main.b21fd07a.css.map": "./static/css/main.b21fd07a.css.map",
-    "main.7cdaa792.js.map": "./static/js/main.7cdaa792.js.map",
+    "main.290de21d.js.map": "./static/js/main.290de21d.js.map",
     "488.af104311.chunk.js.map": "./static/js/488.af104311.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b21fd07a.css",
-    "static/js/main.7cdaa792.js"
+    "static/js/main.290de21d.js"
   ]
 }
