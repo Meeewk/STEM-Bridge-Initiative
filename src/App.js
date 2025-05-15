@@ -47,7 +47,7 @@ export default function App() {
             heightPercent={10}
             frequency={window.innerWidth / 100}
             duration={0.5}
-            color="rgba(25,104,119,255)"
+            color="#8080f7"
             strokeWidth="8"
           />
           <Reveal>
@@ -99,7 +99,7 @@ export default function App() {
             heightPercent={10}
             frequency={window.innerWidth / 100}
             duration={0.5}
-            color="rgba(25,104,119,255)"
+            color="#8080f7"
             strokeWidth="8"
           />
           <Reveal>
@@ -164,7 +164,7 @@ export default function App() {
             heightPercent={10}
             frequency={window.innerWidth / 100}
             duration={0.5}
-            color="rgba(25,104,119,255)"
+            color="#8080f7"
             strokeWidth="8"
           />
           <Reveal>
@@ -201,7 +201,7 @@ export default function App() {
             heightPercent={10}
             frequency={window.innerWidth / 100}
             duration={0.5}
-            color="rgba(25,104,119,255)"
+            color="#8080f7"
             strokeWidth="8"
           />
           <Reveal>

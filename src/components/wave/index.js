@@ -29,7 +29,7 @@ function genWavePath({ widthPercent = 100, heightPercent = 4, frequency = 4 }) {
 
 
 
-export default function DrawingWave({id= "", widthPercent = 100, heightPercent = 30, frequency = 5, duration = 2, color = "blue", strokeWidth = "4", delay = 0}) {
+export default function DrawingWave({id= "", widthPercent = 100, heightPercent = 30, frequency = 5, duration = 2, color = "#8080f7", strokeWidth = "4", delay = 0}) {
   const [wavePath, setWavePath] = useState(genWavePath({ widthPercent: widthPercent, heightPercent: heightPercent, frequency: frequency * 2 }))
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true});

@@ -78,11 +78,10 @@ h1 {
   .itemThingImg {
     width: 80%;
     margin-left: 10%;
-    border-radius: 10%;
+
   }
 
   .rounded-img {
-    border-radius: 10%;
     object-fit: cover;
   }
   

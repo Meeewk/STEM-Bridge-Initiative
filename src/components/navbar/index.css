@@ -8,7 +8,7 @@ nav {
 /*DESKTOP STYLES*/
 @media screen and (min-width: 992px) {
   .customBar {
-    background-color: rgba(128,128,247,255);
+    background-color: #bdbdfe;
     height: 12vh;
     position: fixed;
     top: 0;

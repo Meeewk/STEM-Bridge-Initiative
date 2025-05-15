@@ -56,7 +56,7 @@
 .item-card {
   width: 20vw; /* Item width */
   height: 60vh; /* Item height */
-  background-color: rgba(128,128,247,255);
+  background-color: #9494ff;
   color: black;
   display: flex;
   flex-direction: column;
