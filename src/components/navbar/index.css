@@ -21,7 +21,7 @@ nav {
 
   .topBar {
     font-size: 3rem;
-    margin-left: 15%;
+    margin-left: 5%;
     margin-top: 1%;
   }
 
@@ -59,27 +59,27 @@ nav {
 /*MOBILE-SPECIFIC STYLES*/
 @media screen and (max-width: 991px) {
   .customBar {
-    background-color: rgba(105,203,222,255);
-    height: 6vh;
+    background-color: #bdbdfe;
+    height: 8vh;
     position: fixed;
     top: 0;
     left: 0;
-    width: 108vw;
+    width: 100%;
     z-index: 1000;
     border-bottom: solid 2px black;
-
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   }
 
   .topBar {
-    font-size: x-large;
+    font-size: xx-large;
     margin-left: 6%;
   }
 
   .subContainer {
-    background-color: rgba(105,203,222,255);
     border-bottom: solid 2px black;
+    margin-top: 1vh;
     box-shadow: 0px 9px 10px -5px rgba(0, 0, 0, 0.3);
-
+    background-color: #bdbdfe;
   }
 
   .container-fluid {
@@ -108,6 +108,7 @@ nav {
   .collapseBtn {
     display: block;
     border: none;
+    margin-right: 2%;
   }
 
   .collapseBtn::selection{

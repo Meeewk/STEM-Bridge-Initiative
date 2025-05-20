@@ -1,108 +1,69 @@
-/* General styling for the scroller container */
-.scroller-container {
-  position: relative;
-  width: 100vw;
-  height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  margin-top: -10vh;
-}
-
-/* Left and Right arrows */
-.arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #333;
-  color: white;
-  padding: 16px;
-  border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  z-index: 10;
-}
-
-.left-arrow {
-  left: 10vw;
-}
-
-.right-arrow {
-  right: 10vw;
-}
-
-/* Scrollable container for items */
-.scrollable-container {
-  width: 100%;
-  overflow: hidden;
-}
-
-/* CSS Grid for items wrapper - single row */
-.scrollable-items {
+/* Grid container with centering logic */
+.grid-container {
   display: grid;
-  grid-template-columns: 18vw repeat(auto-fit, minmax(20vw, 1fr)); /* Add 5vw column before the items */
-  gap: 16px;
-  transition: transform 0.4s ease-out;
-  grid-auto-flow: column; /* Force items to align in a single row */
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: start;
+  place-items: center; /* center items in cells */
 }
 
-/* Empty element for left padding */
-.empty-element {
-  width: 5vw;
+/* Responsive columns */
+.columns-2 {
+  grid-template-columns: repeat(2, 1fr);
 }
 
-/* Individual item cards */
+.columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Shared card styling */
 .item-card {
-  width: 20vw; /* Item width */
-  height: 60vh; /* Item height */
-  background-color: #9494ff;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  background: white;
+  border: 1px solid #ccc;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  position: relative;
-  padding: 16px;
-}
-
-/* Name styling */
-.item-name {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  font-size: 4vh;
-  font-weight: bold;
-  color: black;
-  margin: 0;
-}
-
-/* Image styling */
-.item-image {
-  height: 40vh; /* Middle 4/7 of the height */
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.item-name {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.item-description {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Image container */
+.item-image {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
   overflow: hidden;
-  margin-top: 70px;
+  border-radius: 8px;
 }
 
 .item-image img {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
-  object-fit: cover; /* Crop image to fit */
+  width: 100%;
+  object-fit: cover;
 }
 
-/* Description styling */
-.item-description {
-  margin-top: 4vh;
-  font-size: 0.8vw;
-  text-align: center;
-  color: black;
-}
-
-/* Disabled state for arrows */
-.arrow:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+.rounded-img {
+  border-radius: 8px;
 }
