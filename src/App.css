@@ -84,6 +84,10 @@ h1 {
   .rounded-img {
     object-fit: cover;
   }
+  
+  .groupPhoto {
+    width: 90%;
+  }
 }
 
 /*MOBILE-SPECIFIC STYLES*/
@@ -170,6 +174,10 @@ h1 {
   }
 
   #root > div:nth-child(5) > div > div:nth-child(2) > div > h3 {
+    margin-top: 3vh;
+  }
+
+  #root > div:nth-child(6) > div.itemInner.containParagraph > div:nth-child(2) > div > h3 {
     margin-top: 3vh;
   }
 

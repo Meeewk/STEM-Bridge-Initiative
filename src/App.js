@@ -2,20 +2,12 @@ import "./App.css";
 import CustomNavbar from "./components/navbar";
 import Reveal from "./components/reveal";
 import DrawingWave from "./components/wave";
-import HorizontalScroller from "./components/horizontalScroller";
 import { useRef } from "react";
-import AbhayPhoto from "./images/AbhayPhoto.jpeg";
-import EdgarPhoto from "./images/EdgarPhoto.jpeg";
-import KarlenPhoto from "./images/KarlenPhoto.jpg";
-import MariPhoto from "./images/MariPhoto.jpeg";
-import MatthewPhoto from "./images/MatthewPhoto.JPG";
-import SusannaPhoto from "./images/SusannaPhoto.jpg";
-import YanaPhoto from "./images/YanaPhoto.jpeg";
-import ShriyaPhoto from "./images/ShriyaPhoto.jpg";
 import AdoptGoFundMeWidget from "./components/donation";
 import ArmenianKidsHandsUpPhoto from "./images/ArmenianKidsHandsUp.jpg";
 import ArmenianKidsChessPhoto from "./images/ArmenianChess.jpg";
 import ArmenianKidsTablePhoto from "./images/ArmenianKidsTable.jpg";
+import GroupPhoto from "./images/GroupPhoto.jpeg";
 
 export default function App() {
   const homeRef = useRef(null);
@@ -106,55 +98,20 @@ export default function App() {
             <h1>About us</h1>
           </Reveal>
         </div>
+
+        <div className="itemInner containParagraph">
+          <Reveal width={window.innerWidth}>
+            <img className="itemThingImg groupPhoto" src={GroupPhoto} />
+          </Reveal>
+          <Reveal width={window.innerWidth}>
+            <h3>
+              Our team is mainly comprised of immigrant high school students from Washington State. As students in America, we experience the privilege of an advanced STEM education, and with our experiences in other countries, we recognize STEM Education's immense value in the modern world. We wanted a way to fight inequality in the world, and we decided to do it by tackling the prevelant digital divide.
+            </h3>
+          </Reveal>
+        </div>
       </div>
 
-      <HorizontalScroller
-        items={[
-          {
-            name: "Karlen Aleksanyan",
-            image: KarlenPhoto,
-            
-            description:
-              "",
-          },
-          {
-            name: "Yana Sukhudyan",
-            image: YanaPhoto,
-            description:
-              "",
-          },
-          {
-            name: "Mari Ivanyan",
-            image: MariPhoto,
-            description:
-              "",
-          },
-          {
-            name: "Matthew Kokhan",
-            image: MatthewPhoto,
-            description:
-              "",
-          },
-          {
-            name: "Edgar Ter-Galstyan",
-            image: EdgarPhoto,
-            description:
-              "",
-          },
-          {
-            name: "Susanna Aleksanyan",
-            image: SusannaPhoto,
-            description:
-              "",
-          },
-          {
-            name: "Shriya Aroun",
-            image: ShriyaPhoto,
-            description:
-              ""
-          }
-        ]}
-      />
+      
 
       <div className="itemThing" ref={supportRef}>
         <div className="itemInner">
