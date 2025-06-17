@@ -1,26 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.13ce428a.css",
-    "main.js": "./static/js/main.fdef4ce5.js",
+    "main.css": "./static/css/main.1cbf6eef.css",
+    "main.js": "./static/js/main.8dd27752.js",
     "static/js/488.af104311.chunk.js": "./static/js/488.af104311.chunk.js",
-    "static/media/AbhayPhoto.jpeg": "./static/media/AbhayPhoto.bf7dfe3a8805a9983c96.jpeg",
-    "static/media/KarlenPhoto.jpg": "./static/media/KarlenPhoto.a6ce8fbdf661dd76a7a8.jpg",
-    "static/media/SusannaPhoto.jpg": "./static/media/SusannaPhoto.2ef1f3060b04b717db7e.jpg",
-    "static/media/ShriyaPhoto.jpg": "./static/media/ShriyaPhoto.01f7858f92a9b23b6c98.jpg",
-    "static/media/MatthewPhoto.JPG": "./static/media/MatthewPhoto.7c7c1e99799841ca2dcd.JPG",
-    "static/media/YanaPhoto.jpeg": "./static/media/YanaPhoto.4de241f010b07522c3a3.jpeg",
-    "static/media/MariPhoto.jpeg": "./static/media/MariPhoto.8c5f8e778fcd976b1c8f.jpeg",
-    "static/media/EdgarPhoto.jpeg": "./static/media/EdgarPhoto.67048866eaf86b7a9de8.jpeg",
+    "static/media/GroupPhoto.jpeg": "./static/media/GroupPhoto.44ed318e138a6244b9d7.jpeg",
     "static/media/ArmenianKidsHandsUp.jpg": "./static/media/ArmenianKidsHandsUp.603df5e00494f7383c35.jpg",
     "static/media/ArmenianChess.jpg": "./static/media/ArmenianChess.6ec430c06de1b7bfd6bc.jpg",
     "static/media/ArmenianKidsTable.jpg": "./static/media/ArmenianKidsTable.3340cbba520fb1d94db4.jpg",
     "index.html": "./index.html",
-    "main.13ce428a.css.map": "./static/css/main.13ce428a.css.map",
-    "main.fdef4ce5.js.map": "./static/js/main.fdef4ce5.js.map",
+    "main.1cbf6eef.css.map": "./static/css/main.1cbf6eef.css.map",
+    "main.8dd27752.js.map": "./static/js/main.8dd27752.js.map",
     "488.af104311.chunk.js.map": "./static/js/488.af104311.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13ce428a.css",
-    "static/js/main.fdef4ce5.js"
+    "static/css/main.1cbf6eef.css",
+    "static/js/main.8dd27752.js"
   ]
 }
