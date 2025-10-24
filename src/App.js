@@ -8,12 +8,30 @@ import ArmenianKidsHandsUpPhoto from "./images/ArmenianKidsHandsUp.jpg";
 import ArmenianKidsChessPhoto from "./images/ArmenianChess.jpg";
 import ArmenianKidsTablePhoto from "./images/ArmenianKidsTable.jpg";
 import GroupPhoto from "./images/GroupPhoto.jpeg";
+import DonationProgressPie from "./components/donationProgressPie";
 
 export default function App() {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
   const supportRef = useRef(null);
   const contactRef = useRef(null);
+  const pieChartCategories = [
+    {
+      name: "GoFundMe Donations",
+      amount: 2500,
+      description: "Raised through our GoFundMe campaign."
+    },
+    {
+      name: "Fundraising Events",
+      amount: 2000,
+      description: "Raised through events such as a boba shop and book donations."
+    },
+    {
+      name: "Matching Programs",
+      amount: 2500,
+      description: "Raised through corporate matches from Google and Microsoft."
+    },
+  ];
   return (
     <>
       <CustomNavbar
@@ -129,7 +147,7 @@ export default function App() {
           </Reveal>
         </div>
 
-        <div className="itemInner containParagraph">
+        <div className="itemInner containParagraph supportUsParagraph">
           <Reveal width={window.innerWidth}>
             <h3>
               STEM Bridge Initiative is currently raising funds in order to
@@ -145,7 +163,8 @@ export default function App() {
             </h3>
           </Reveal>
           <Reveal width={window.innerWidth}>
-            <AdoptGoFundMeWidget />
+            {/* <AdoptGoFundMeWidget /> */}
+            <DonationProgressPie goal={8500} categories={pieChartCategories} />
           </Reveal>
         </div>
       </div>

@@ -1,0 +1,101 @@
+.donation-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.donation-title {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.chart-wrapper {
+  position: relative;
+  width: 65vw; /* ✅ mobile scaling target */
+  max-width: 500px;
+  height: 65vw;
+  max-height: 500px;
+  margin: 0 auto;
+}
+
+.center-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.center-text .percent {
+  font-size: clamp(1.25rem, 3vw, 2.5rem);
+  font-weight: 600;
+  color: #333;
+}
+
+.center-text .goal {
+  font-size: clamp(0.75rem, 1.5vw, 1rem);
+  color: #777;
+}
+
+.tooltip {
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
+}
+
+.tooltip-category {
+  background-color: #fff;
+  color: #222;
+}
+
+.tooltip-remaining {
+  background-color: #2d2d2d;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .chart-wrapper {
+    width: 65vw;
+    height: 65vw;
+  }
+}
+
+@media (min-width: 1600px) {
+  .chart-wrapper {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+.legend-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  margin-right: 8px;
+  box-shadow: 0 0 0 1px #ccc inset;
+}

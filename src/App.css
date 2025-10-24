@@ -88,6 +88,10 @@ h1 {
   .groupPhoto {
     width: 90%;
   }
+
+  .supportUsParagraph {
+    margin-top: -4vh;
+  }
 }
 
 /*MOBILE-SPECIFIC STYLES*/
@@ -183,5 +187,9 @@ h1 {
 
   .rounded-img {
     object-fit: cover;
+  }
+
+  .supportUsParagraph {
+    margin-top: 0vh;
   }
 }
