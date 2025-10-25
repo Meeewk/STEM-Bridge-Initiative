@@ -17,19 +17,14 @@ export default function App() {
   const contactRef = useRef(null);
   const pieChartCategories = [
     {
-      name: "GoFundMe Donations",
-      amount: 2500,
+      name: "Donations",
+      amount: 5383,
       description: "Raised through our GoFundMe campaign."
     },
     {
       name: "Fundraising Events",
-      amount: 2000,
+      amount: 2812,
       description: "Raised through events such as a boba shop and book donations."
-    },
-    {
-      name: "Matching Programs",
-      amount: 2500,
-      description: "Raised through corporate matches from Google and Microsoft."
     },
   ];
   return (
