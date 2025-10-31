@@ -153,12 +153,11 @@ export default function App() {
               tools educate students on STEM fields and prepare them for future
               opportunities. Every donation, big or small, helps create an
               impact where it's needed most. Currently, we’re focused on
-              collecting donations through our GoFundMe to make sure these labs
+              collecting donations through our <a style={{color: "blue"}} href={"https://www.gofundme.com/f/stem-bridge-initiative-bridging-the-digital-divide"}>GoFundMe</a> to make sure these labs
               are built as soon as possible.
             </h3>
           </Reveal>
           <Reveal width={window.innerWidth}>
-            {/* <AdoptGoFundMeWidget /> */}
             <DonationProgressPie goal={8500} categories={pieChartCategories} />
           </Reveal>
         </div>
