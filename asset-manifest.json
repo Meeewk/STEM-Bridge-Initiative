@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.1cbf6eef.css",
-    "main.js": "./static/js/main.8dd27752.js",
-    "static/js/488.af104311.chunk.js": "./static/js/488.af104311.chunk.js",
+    "main.css": "./static/css/main.7876acaf.css",
+    "main.js": "./static/js/main.f177103f.js",
+    "static/js/488.68521f19.chunk.js": "./static/js/488.68521f19.chunk.js",
     "static/media/GroupPhoto.jpeg": "./static/media/GroupPhoto.44ed318e138a6244b9d7.jpeg",
     "static/media/ArmenianKidsHandsUp.jpg": "./static/media/ArmenianKidsHandsUp.603df5e00494f7383c35.jpg",
     "static/media/ArmenianChess.jpg": "./static/media/ArmenianChess.6ec430c06de1b7bfd6bc.jpg",
     "static/media/ArmenianKidsTable.jpg": "./static/media/ArmenianKidsTable.3340cbba520fb1d94db4.jpg",
     "index.html": "./index.html",
-    "main.1cbf6eef.css.map": "./static/css/main.1cbf6eef.css.map",
-    "main.8dd27752.js.map": "./static/js/main.8dd27752.js.map",
-    "488.af104311.chunk.js.map": "./static/js/488.af104311.chunk.js.map"
+    "main.7876acaf.css.map": "./static/css/main.7876acaf.css.map",
+    "main.f177103f.js.map": "./static/js/main.f177103f.js.map",
+    "488.68521f19.chunk.js.map": "./static/js/488.68521f19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cbf6eef.css",
-    "static/js/main.8dd27752.js"
+    "static/css/main.7876acaf.css",
+    "static/js/main.f177103f.js"
   ]
 }
