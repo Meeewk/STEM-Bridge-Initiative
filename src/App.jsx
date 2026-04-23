@@ -39,7 +39,7 @@ export default function App() {
   const pieChartCategories = [
     {
       name: "Donations",
-      amount: 5383,
+      amount: 5688,
       description: "Raised through our GoFundMe campaign."
     },
     {
@@ -67,7 +67,7 @@ export default function App() {
         supportRef={supportRef}
       />
 
-      <div id="topImgDiv">
+      {/* <div id="topImgDiv">
         <img
           id="topImg"
           className="rounded-img"
@@ -75,9 +75,9 @@ export default function App() {
           alt="Armenian kids with hands up"
         />
       </div>
-      <div id="after"></div>
+      <div id="after"></div> */}
 
-      <div className="itemThing" ref={homeRef}>
+      <div className="itemThing first" ref={homeRef}>
         <div className="itemInner">
           <DrawingWave {...waveProps} />
           <Reveal>
