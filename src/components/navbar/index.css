@@ -1,22 +1,80 @@
-/*GLOBAL STYLES*/
+/* GLOBAL & MOBILE-FIRST STYLES */
 nav {
   font-family: 'Antic Slab', serif;
 }
 
+.customBar {
+  background-color: #bdbdfe;
+  height: 8vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: solid 2px black;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
 
+.topBar {
+  font-size: x-large;
+  margin-left: 6%;
+}
 
-/*DESKTOP STYLES*/
+.subContainer {
+  border-bottom: solid 2px black;
+  margin-top: 1vh;
+  box-shadow: 0px 9px 10px -5px rgba(0, 0, 0, 0.3);
+  background-color: #bdbdfe;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.subBar {
+  font-size: large;
+  margin-left: 10%;
+}
+
+.subBar span::before {
+  content: "\203A";
+}
+
+.subBar span {
+  font-size: x-large;
+}
+
+.subBar:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.collapseBtn {
+  display: block;
+  border: none;
+  margin-right: 2%;
+}
+
+.collapseBtn::selection {
+  border: none !important;
+}
+
+/* Extra small devices */
+@media screen and (max-width: 325px) {
+  .topBar {
+    font-size: 7vw;
+  }
+
+  .customBar {
+    height: 10vh;
+  }
+}
+
+/* DESKTOP STYLES (Overrides) */
 @media screen and (min-width: 992px) {
   .customBar {
-    background-color: #bdbdfe;
     height: 12vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    border-bottom: solid 2px black;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   }
 
   .topBar {
@@ -25,9 +83,12 @@ nav {
     margin-top: 1%;
   }
 
-  .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
+  .subContainer {
+    margin-right: 18%;
+    margin-top: 2%;
+    border-bottom: none;
+    box-shadow: none;
+    background-color: transparent;
   }
 
   .subBar {
@@ -37,6 +98,10 @@ nav {
     white-space: nowrap;
   }
 
+  .subBar span::before {
+    content: ""; /* Remove arrow on desktop */
+  }
+
   .subBar span {
     font-size: xx-large;
   }
@@ -44,87 +109,10 @@ nav {
   .subBar:hover {
     text-decoration: underline;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-weight: normal; /* Revert mobile bold */
   }
 
   .collapseBtn {
     display: none;
-  }
-
-  .subContainer {
-    margin-right: 18%;;
-    margin-top: 2%;
-  }
-}
-
-
-
-/*MOBILE-SPECIFIC STYLES*/
-@media screen and (max-width: 991px) {
-  .customBar {
-    background-color: #bdbdfe;
-    height: 8vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    border-bottom: solid 2px black;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-  }
-
-  .topBar {
-    font-size: x-large;
-    margin-left: 6%;
-  }
-
-  .subContainer {
-    border-bottom: solid 2px black;
-    margin-top: 1vh;
-    box-shadow: 0px 9px 10px -5px rgba(0, 0, 0, 0.3);
-    background-color: #bdbdfe;
-  }
-
-  .container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .subBar {
-    font-size: large;
-    margin-left: 10%;
-  }
-
-  .subBar span::before {
-    content: "\203A";
-  }
-
-  .subBar span {
-    font-size: x-large;
-  }
-
-  .subBar:hover {
-    text-decoration: underline;
-    font-weight: bold;
-  }
-
-  .collapseBtn {
-    display: block;
-    border: none;
-    margin-right: 2%;
-  }
-
-  .collapseBtn::selection{
-    border: none !important;
-  }
-}
-
-
-@media screen and (max-width: 325px) {
-  .topBar {
-    font-size: 7vw;
-  }
-
-  .customBar {
-    height: 10vh;
   }
 }

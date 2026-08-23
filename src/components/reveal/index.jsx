@@ -1,5 +1,5 @@
+import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
-import React, { useEffect, useRef} from "react";
 
 export default function Reveal({ children, width = "fit-content", overflow = "hidden"}) {
   const ref = useRef(null);

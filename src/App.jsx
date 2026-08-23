@@ -1,14 +1,17 @@
-import "./App.css";
-import CustomNavbar from "./components/navbar";
-import Reveal from "./components/reveal";
-import DrawingWave from "./components/wave";
 import { useRef, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+
+import CustomNavbar from "./components/navbar";
+import Footer from "./components/footer";
+import Reveal from "./components/reveal";
+import DrawingWave from "./components/wave";
 import DonationProgressPie from "./components/donationProgressPie";
-import ArmenianKidsHandsUpPhoto from "./images/ArmenianKidsHandsUp.jpg";
+
 import ArmenianKidsChessPhoto from "./images/ArmenianChess.jpg";
 import ArmenianKidsTablePhoto from "./images/ArmenianKidsTable.jpg";
-import GroupPhoto from "./images/GroupPhoto.jpeg";
+import GroupPhoto from "./images/GroupPhoto.jpg";
+
+import "./App.css";
 
 export default function App() {
   const homeRef = useRef(null);
@@ -16,6 +19,10 @@ export default function App() {
   const supportRef = useRef(null);
   const location = useLocation();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = "STEM Bridge Initiative";
+  }, []);
 
   useEffect(() => {
     if (location.state?.scrollTo) {
@@ -67,16 +74,6 @@ export default function App() {
         supportRef={supportRef}
       />
 
-      {/* <div id="topImgDiv">
-        <img
-          id="topImg"
-          className="rounded-img"
-          src={ArmenianKidsHandsUpPhoto}
-          alt="Armenian kids with hands up"
-        />
-      </div>
-      <div id="after"></div> */}
-
       <div className="itemThing first" ref={homeRef}>
         <div className="itemInner">
           <DrawingWave {...waveProps} />
@@ -85,7 +82,7 @@ export default function App() {
           </Reveal>
         </div>
         <div className="itemInner containParagraph">
-          <Reveal width={window.innerWidth}>
+          <Reveal width="100%">
             <h3>
               The digital divide is the grave inequality in the modern world
               caused by the access to digital infrastructure certain parts of
@@ -97,7 +94,7 @@ export default function App() {
               required for success in the digitalized world of today.
             </h3>
           </Reveal>
-          <Reveal width={window.innerWidth}>
+          <Reveal width="100%">
             <img
               className="itemThingImg"
               src={ArmenianKidsChessPhoto}
@@ -109,14 +106,14 @@ export default function App() {
 
       <div className="itemThing">
         <div className="itemInner containParagraph">
-          <Reveal width={window.innerWidth}>
+          <Reveal width="100%">
             <img
               className="itemThingImg"
               src={ArmenianKidsTablePhoto}
               alt="Armenian kids at table"
             />
           </Reveal>
-          <Reveal width={window.innerWidth}>
+          <Reveal width="100%">
             <h3>
               Our primary goal as of today is to build computer lab
               infrastructure in pre-existing schools in villages and other
@@ -133,18 +130,18 @@ export default function App() {
         <div className="itemInner">
           <DrawingWave {...waveProps} />
           <Reveal>
-            <h1>About us</h1>
+            <h2>About us</h2>
           </Reveal>
         </div>
         <div className="itemInner containParagraph">
-          <Reveal width={window.innerWidth}>
+          <Reveal width="100%">
             <img
               className="itemThingImg groupPhoto"
               src={GroupPhoto}
               alt="Group photo"
             />
           </Reveal>
-          <Reveal width={window.innerWidth}>
+          <Reveal width="100%">
             <h3>
               Our team is mainly comprised of immigrant high school students
               from Washington State. As students in America, we experience the
@@ -162,11 +159,11 @@ export default function App() {
         <div className="itemInner">
           <DrawingWave {...waveProps} />
           <Reveal>
-            <h1>Support Us</h1>
+            <h2>Support Us</h2>
           </Reveal>
         </div>
         <div className="itemInner containParagraph supportUsParagraph">
-          <Reveal width={window.innerWidth}>
+          <Reveal width="100%">
             <h3>
               STEM Bridge Initiative is currently raising funds in order to
               build computer labs in small communities in developing countries,
@@ -180,34 +177,13 @@ export default function App() {
               are built as soon as possible.
             </h3>
           </Reveal>
-          <Reveal width={window.innerWidth}>
+          <Reveal width="100%">
             <DonationProgressPie goal={8500} categories={pieChartCategories} />
           </Reveal>
         </div>
       </div>
 
-      <div className="itemThing">
-        <div className="itemInner">
-          <DrawingWave {...waveProps} />
-          <Reveal>
-            <h1>Contact</h1>
-          </Reveal>
-        </div>
-        <div className="itemInner">
-          <Reveal width={window.innerWidth}>
-            <h3>
-              <p>
-                <a href="mailto:stembridgeinitiativeyan@gmail.com">
-                  stembridgeinitiativeyan@gmail.com
-                </a>
-              </p>
-              <p>
-                <a href="tel:+14254039029">+1-425-403-9029</a>
-              </p>
-            </h3>
-          </Reveal>
-        </div>
-      </div>
+      <Footer />
     </>
   );
 }

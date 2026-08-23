@@ -1,21 +1,19 @@
+import { useEffect } from "react";
+
+import CustomNavbar from "../components/navbar";
+import Footer from "../components/footer";
+import Reveal from "../components/reveal";
+
+import LanjaghbyurSpeaking from "../images/LanjaghbyurSpeaking.png";
+import YervandashatImage from "../images/YervandashatImage.png";
+
 import "../App.css";
 import "./Projects.css";
-import CustomNavbar from "../components/navbar";
-import Reveal from "../components/reveal";
-import DrawingWave from "../components/wave";
-import LanjaghbyurSpeaking from "../images/LanjaghbyurSpeaking.png"
-import YervandashatImage from "../images/YervandashatImage.png"
 
 export default function Projects() {
-  const waveProps = {
-    id: "wave",
-    widthPercent: 14,
-    heightPercent: 10,
-    frequency: window.innerWidth / 100,
-    duration: 0.5,
-    color: "#8080f7",
-    strokeWidth: "8"
-  };
+  useEffect(() => {
+    document.title = "Projects | STEM Bridge Initiative";
+  }, []);
 
   const projects = [
     {
@@ -55,7 +53,7 @@ export default function Projects() {
           </Reveal>
         </div>
         <div className="itemInner">
-          <Reveal width={window.innerWidth}>
+          <Reveal width="100%">
             <h3 className="projects-intro">
               We're committed to making a tangible difference in bridging the digital divide. 
               Here are the initiatives we're currently working on and have completed.
@@ -70,7 +68,7 @@ export default function Projects() {
           className={`project-section ${index % 2 === 0 ? 'even' : 'odd'}`}
         >
           <div className="project-content">
-            <Reveal width={window.innerWidth}>
+            <Reveal width="100%">
               <div className="project-text">
                 <h2>{project.title}</h2>
                 <span className={`status-badge ${project.status.toLowerCase().replace(' ', '-')}`}>
@@ -84,7 +82,7 @@ export default function Projects() {
               </div>
             </Reveal>
             
-            <Reveal width={window.innerWidth}>
+            <Reveal width="100%">
               <div className="project-visual">
                 {project.image ? (
                   <img src={project.image} alt={project.title} />
@@ -114,6 +112,7 @@ export default function Projects() {
           </a>
         </Reveal>
       </div>
+      <Footer />
     </>
   );
 }
