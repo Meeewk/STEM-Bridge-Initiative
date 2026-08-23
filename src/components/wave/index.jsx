@@ -1,5 +1,5 @@
+import { useState, useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
 
 function genWavePath({ widthPercent = 100, heightPercent = 4, frequency = 4 }) {
   let width = (window.innerWidth * widthPercent) / 100;
@@ -52,7 +52,7 @@ export default function DrawingWave({id= "", widthPercent = 100, heightPercent =
 
 
   return (
-    <svg id={id} ref={ref} width={wavePath.width} height={wavePath.height} viewBox={`0 0 ${wavePath.width}} ${wavePath.height}`} fill="none">
+    <svg id={id} ref={ref} width={wavePath.width} height={wavePath.height} viewBox={`0 0 ${wavePath.width} ${wavePath.height}`} fill="none">
       <motion.path
         d={wavePath.path}
         stroke={color}

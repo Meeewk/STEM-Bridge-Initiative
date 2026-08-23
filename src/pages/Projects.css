@@ -1,39 +1,41 @@
-/* Projects Page Styles */
+/* GLOBAL & MOBILE-FIRST STYLES */
 
 .projects-header {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 8%;
-  margin-bottom: 2%;
-  width: 100%; /* Ensure the container takes full width */
-  text-align: center; /* Center-align inline children */
+  margin-top: 12%;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
 }
 
 .projects-header .itemInner {
-  width: 100%; /* Ensure wrappers don't collapse */
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .projects-header h1 {
-  font-size: 3vw;
+  font-size: 3rem;
+  width: 100%;
   margin-bottom: 1rem;
-  width: auto; /* Prevent it from pushing past bounds */
+  margin-top: 2rem;
+  align-content: center;
 }
 
 .projects-intro {
   text-align: center;
-  width: 70%;
-  margin: 0 auto;
-  font-size: 1.2vw;
+  width: 84%;
+  margin-left: 8%;
+  font-size: large;
   line-height: 1.5;
   word-spacing: 0.2em;
   color: rgba(66,66,66,255);
 }
 
 .project-section {
-  padding: 4rem 0;
+  padding: 3rem 1rem;
   transition: background-color 0.3s ease;
 }
 
@@ -46,69 +48,57 @@
 }
 
 .project-content {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1rem;
   display: flex;
-  gap: 3rem;
+  flex-direction: column;
+  gap: 2rem;
   align-items: center;
   justify-content: center;
-}
-
-/* Alternate the order for odd sections */
-.project-section.odd .project-content {
-  flex-direction: row-reverse;
 }
 
 .project-text,
 .project-visual {
   flex: 1;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 1rem;
 }
 
 .project-text h2 {
   font-family: 'Antic Slab', serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: rgba(66,66,66,255);
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .status-badge {
-  display: inline-block;
+  display: block;
+  margin: 1rem auto;
+  width: fit-content;
   padding: 0.4rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
   font-weight: bold;
-  margin-bottom: 1.5rem;
 }
 
-.status-badge.in-progress {
-  background-color: #3498db;
-  color: white;
-}
-
-.status-badge.completed {
-  background-color: #2ecc71;
-  color: white;
-}
-
-.status-badge.ongoing {
-  background-color: #f39c12;
-  color: white;
-}
-
-.status-badge.planning {
-  background-color: #9b59b6;
-  color: white;
-}
+.status-badge.in-progress { background-color: #3498db; color: white; }
+.status-badge.completed { background-color: #2ecc71; color: white; }
+.status-badge.ongoing { background-color: #f39c12; color: white; }
+.status-badge.planning { background-color: #9b59b6; color: white; }
 
 .project-description,
 .project-details,
 .project-impact {
-  font-size: 1.2vw;
+  font-size: large;
+  text-align: center;
   color: black;
   margin-bottom: 1rem;
   line-height: 1.5;
   word-spacing: 0.2em;
+  padding: 0 0.5rem;
 }
 
 .project-impact {
@@ -122,13 +112,14 @@
 
 .project-visual {
   width: 100%;
-  height: 350px;
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 0;
 }
 
 .project-visual img {
@@ -149,7 +140,7 @@
 }
 
 .placeholder-icon {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
@@ -158,10 +149,9 @@
   opacity: 0.9;
 }
 
-/* Call to Action Section */
 .projects-cta {
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 3rem 2rem;
   background-color: #8080f7;
   color: white;
   display: flex;
@@ -172,23 +162,24 @@
 
 .projects-cta h2 {
   font-family: 'Antic Slab', serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
+  padding: 0 1rem;
 }
 
 .projects-cta p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-bottom: 2rem;
   opacity: 0.95;
-  max-width: 800px;
+  padding: 0 1rem;
 }
 
 .cta-button {
   display: inline-block;
-  padding: 1rem 3rem;
+  padding: 0.8rem 2rem;
   background-color: white;
   color: #8080f7;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   border-radius: 50px;
   text-decoration: none;
@@ -202,95 +193,95 @@
   background-color: #f0f0f0;
 }
 
-/* Mobile Styles */
-@media screen and (max-width: 991px) {
+
+/* DESKTOP STYLES (Overrides) */
+@media screen and (min-width: 992px) {
   .projects-header {
-    margin-top: 12%;
-    margin-bottom: 1rem;
-    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
   }
 
   .projects-header h1 {
-    font-size: 3rem;
-    width: 100vw;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-    align-content: center;
+    font-size: 3vw;
+    width: auto;
+    margin-top: 0;
   }
 
   .projects-intro {
-    width: 84%;
-    margin-left: 8%;
-    font-size: large;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.2vw;
   }
 
   .project-section {
-    padding: 3rem 1rem;
+    padding: 4rem 0;
   }
 
   .project-content {
-    flex-direction: column !important;
-    gap: 2rem;
-    padding: 0 1rem;
+    max-width: 1200px;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 0 2rem;
+  }
+
+  .project-section.odd .project-content {
+    flex-direction: row-reverse;
   }
 
   .project-text,
   .project-visual {
-    width: 100%;
-    max-width: 100%;
-    padding: 0 1rem;
+    padding: 0;
   }
 
   .project-text h2 {
-    font-size: 2rem;
-    text-align: center;
-    padding: 0 1rem;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .status-badge {
+    display: inline-block;
+    margin: 0 0 1.5rem 0;
   }
 
   .project-description,
   .project-details,
   .project-impact {
-    font-size: large;
-    text-align: center;
-    padding: 0 0.5rem;
-  }
-
-  .status-badge {
-    display: block;
-    margin: 1rem auto;
-    width: fit-content;
-  }
-
-  .project-visual {
-    height: 250px;
+    font-size: 1.2vw;
+    text-align: left;
     padding: 0;
   }
 
+  .project-visual {
+    height: 350px;
+  }
+
   .placeholder-icon {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .projects-cta {
-    padding: 3rem 2rem;
+    padding: 5rem 2rem;
   }
 
   .projects-cta h2 {
-    font-size: 2rem;
-    padding: 0 1rem;
+    font-size: 2.5rem;
+    padding: 0;
   }
 
   .projects-cta p {
-    font-size: 1.1rem;
-    padding: 0 1rem;
+    font-size: 1.3rem;
+    padding: 0;
+    max-width: 800px;
   }
 
   .cta-button {
-    padding: 0.8rem 2rem;
-    font-size: 1.1rem;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
   }
 }
 
-/* Desktop Large Screens */
+
+/* Extra Large Desktop */
 @media screen and (min-width: 1400px) {
   .project-content {
     max-width: 1400px;

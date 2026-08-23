@@ -1,0 +1,13 @@
+# STEM Bridge Initiative
+
+> Bridging the digital divide by building computer labs and providing STEM education in developing regions.
+
+STEM Bridge Initiative is a student-led organization based in Washington State. Our mission is to tackle the root of inequality by providing poorer countries and regions with the tools for a proper STEM education.
+
+## Current Projects
+- Yervandashat, Armenia: Building an engineering lab in a border village school for up to 700 students.
+- Lanjaghbyur, Armenia: Completed computer lab providing digital literacy to ~200 students.
+
+## Contact
+Email: stembridgeinitiativeyan@gmail.com
+Phone: +1-425-403-9029
